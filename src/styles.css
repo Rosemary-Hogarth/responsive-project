@@ -10,22 +10,35 @@ background-color: #DEDEDE;
 
 .grid {
   display: grid;
+  grid-gap: 64px;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
+
 
 header {
   background-image: url("../images/cafe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0;
   text-align: center;
   color: #F87B3E;
-
+  padding: 200px 0;
 }
 
 header h1 {
@@ -60,6 +73,39 @@ header a {
   background: white;
 }
 
+main {
+  background-color: white;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+
 footer {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.8),
@@ -67,14 +113,13 @@ footer {
   ), url("../images/underground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0;
-  color: #FF76CE;
-  padding: 100px 0;
+  color: #DEDEDE;
   background-position: center;
 }
 
 footer a {
-  color: #FF76CE;
+  color: #DEDEDE;
+  opacity: 0.7;
 }
 
 footer h3 {
@@ -87,7 +132,6 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   opacity: 0.7;
-  margin-right: 20px;
   line-height: 24px;
 }
 
@@ -124,20 +168,11 @@ footer li {
     font-weight: 400;
   }
 
-  footer {
-    padding: 50px 20px;
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
   }
-
-  footer h3 {
-    font-size: 15px;
-  }
-
-  footer li {
-    font-size: 12px;
-  }
-
-  footer p {
-    font-size: 12px;
-    line-height: 15px;
+  section {
+    padding: 30px;
   }
 }
