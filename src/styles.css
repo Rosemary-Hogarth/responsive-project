@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+.photos {
+  margin-bottom: 20px;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
