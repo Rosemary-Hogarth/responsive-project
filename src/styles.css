@@ -1,6 +1,6 @@
 body {
   font-family: "Barlow", sans-serif;
-background-color: #DEDEDE;
+    background-color: #DEDEDE;
 }
 
 .container {
@@ -82,7 +82,7 @@ section.secondary {
 }
 
 header {
-  background-image: url("../images/cafe.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cafe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
