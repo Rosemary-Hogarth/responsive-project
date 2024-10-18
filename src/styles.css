@@ -67,8 +67,12 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #ff76ce;
+  background-color:#F87B3E;
   text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #d7642a;
 }
 
 .card-header.grid {
@@ -124,6 +128,10 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
+}
+
+header a:hover {
+  background-color: #DEDEDE;
 }
 
 main {
